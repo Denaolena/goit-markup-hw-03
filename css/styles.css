@@ -35,8 +35,8 @@ body {
 /* акцент Голубий #2196F3 */
 
 .container {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -252,7 +252,6 @@ body {
 
 .team-list .title {
   margin-top: 30px;
-  margin-bottom: 10px;
   text-align: center;
 
   color: var(--primary-text-color);
@@ -261,7 +260,7 @@ body {
   line-height: 1.19;
 }
 .team-list .text {
-  margin: o;
+  margin-bottom: 0;
   color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -279,6 +278,7 @@ body {
 
 /* Footer */
 .footer .logo {
+  margin-bottom: 28px;
   color: var(--accent-color);
   font-family: 'Raleway', cursive;
   font-size: 26px;
@@ -304,9 +304,7 @@ body {
   width: 145px;
 }
 .footer-title {
-  margin-top: 28px;
   margin-bottom: 12px;
-
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -335,6 +333,7 @@ body {
 }
 
 .potfolio-btns {
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
 }
@@ -343,7 +342,6 @@ body {
   text-align: center;
   min-width: 73px;
   padding: 6px 22px;
-  margin-bottom: 30px;
   border-radius: 4px;
 
   background-color: #f5f4fa;
@@ -379,16 +377,13 @@ body {
   margin-bottom: 30px;
 }
 
-.card-img {
-  margin-bottom: 20px;
-}
-
 .card-border {
   padding: 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
+
 .projects .item:nth-child(3n) {
   margin-right: 0;
 }
@@ -410,6 +405,7 @@ margin-left: 30px;*/
 } */
 
 .projects .title {
+  margin-top: 0;
   margin-bottom: 4px;
   color: var(--primary-text-color);
   font-size: 18px;
@@ -417,6 +413,7 @@ margin-left: 30px;*/
   letter-spacing: 0.06em;
 }
 .projects .text {
+  margin-left: 0;
   margin: 4px 24px 0px;
   color: var(--title-text-color);
   font-size: 16px;
