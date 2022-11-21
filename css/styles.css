@@ -308,6 +308,7 @@ body {
   width: 145px;
 }
 .footer-title {
+  margin-top: 0;
   margin-bottom: 12px;
   font-style: normal;
   font-size: 14px;
@@ -315,7 +316,7 @@ body {
   color: var(--primary-bg-color);
 }
 .address-title {
-  margin-top: 28px
+  margin-top: 28px;
   font-style: normal;
 }
 
